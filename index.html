@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="index.css">
+    <style type="text/css">
+        body {
+            background-image: url('pngtree-photo-of-shelf-commodity-supermarket-image_1013437.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <form action="enlistar.php" method="POST">
+        <h1>Lista Productos:</h1>
+        <input type="text" name="nombre" placeholder="Agregar artículo" title="Escribe el producto en venta"><br>
+        <input type="numbre" name="precio_uni" placeholder="Precio Unidad" title="Escribe el precio unidad"><br>
+        <input type="numbre" name="precio_may" placeholder="Precio Mayoreo" title="Escribe el precio mayoreo"><br><br>
+        <button type="submit" name="art">Agregar</button><br><br>
+        <a href="consultas.php">Ver Lista</a>
+    </form>
+</body>
+</html>
